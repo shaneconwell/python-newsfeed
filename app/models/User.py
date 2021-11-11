@@ -30,4 +30,3 @@ class User(Base):
             password.encode('utf-8'),
             self.password.encode('utf-8')
         )
-
